@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class cube {
+    private:
+    int height=4.0;
+    int width=5.0;
+    int length=3.0;
+    public:
+int volume(){
+    int v;
+    v=height*width*length;
+    return v;
+}
+};
+
+int main()
+{
+    cube d1,c1;
+    int vol=d1.volume();
+     int vol2=c1.volume();
+    cout<<"Volume:"<<vol<<endl;
+    return 0;
+}
