@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+class cube {
+    public:
+    int height;
+    int width;
+    int length;
+    public:
+    void input(){
+        cout<<" eneter the height:";
+        cin>>height;
+        cout<<" eneter the widht:";
+           cin>>width;
+        cout<<" eneter the legth:";
+           cin>>length;
+        
+    }
+int vol(){
+    int v;
+    v=height*width*length;
+    return v;
+}
+void display(){
+    int a=vol();
+    cout<<"the volume is:"<<a;
+}
+};
+
+int main()
+{
+     cube v1;
+    v1.vol();
+     v1.input();
+     v1.display();
+}
