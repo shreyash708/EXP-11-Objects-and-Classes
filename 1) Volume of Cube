@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+class cube {
+    public:
+    int height=4.0;
+    int width=5.0;
+    int length=3.0;
+};
+int main()
+{
+    cube d1;
+    int vol=d1.height*d1.width*d1.length;
+    int perimeter=d1.height+d1.width+d1.length;
+    cout<<"Volume:"<<vol<<endl;
+ cout<<"perimeter:"<<perimeter<<endl;
+    return 0;
+}
+OUTPUT:
+Volume:60
+perimeter:12
